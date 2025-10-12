@@ -45,6 +45,14 @@
     </label><br>
     <button type="submit" id="btnSend">Wyślij</button>
   </form>
+  <form id="searchForm" method="POST" action="search.php">
+  <label>Wyszukaj samochód po marce/modelu:
+    <input type="text" name="search_term" id="search_term">
+  </label>
+  <button type="submit">Szukaj</button>
+</form>
+<div id="search_output" class="msg"></div>
+
   
   <div id="output" class="msg"></div>
   
