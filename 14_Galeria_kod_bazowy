@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Prosta Galeria</title>
+<style>
+  body { font-family: sans-serif; text-align: center; }
+  #main { width: 300px; height: 200px; border: 2px solid #ccc; margin-bottom: 10px; }
+  .thumb { width: 80px; height: 60px; margin: 5px; cursor: pointer; border: 1px solid #999; }
+</style>
+</head>
+<body>
+
+<h2>Prosta Galeria</h2>
+
+<!-- Główne zdjęcie -->
+<!-- Proszę o przygotowanie 3 dowolnych obrazków które będą się wyświetlały w galerii -->
+<img id="main" src="galeria/skoda.jpeg" alt="Główne zdjęcie">
+
+<!-- Miniatury -->
+<div>
+  <img class="thumb" src="galeria/skoda.jpeg" alt="">
+  <img class="thumb" src="galeria/bmw.jpg" alt="">
+  <img class="thumb" src="galeria/mclaren.jpg" alt="">
+</div>
+
+<script>
+  const main = document.getElementById('main');
+  const thumbs = document.querySelectorAll('.thumb');
+
+  // klasyczna pętla for
+  for (var i = 0; i < thumbs.length; i++) {
+    thumbs[i].addEventListener('click', function() {
+      main.src = this.src; // 'this' wskazuje klikniętą miniaturę
+    });
+  }
+</script>
+
+</body>
+</html>
