@@ -342,7 +342,7 @@ element.classList.add('podswietlony');
         <div class="task">
             <div class="task-header">
                 <div class="task-number">2</div>
-                <div class="task-title">Utwórz klasę "ważny" i przełączaj</div>
+                <div class="task-title">Utwórz klasę w stylach CSS "ważny" i przełączaj</div>
                 <div class="difficulty">Trudność: <span class="difficulty-star">⭐⭐</span></div>
             </div>
             <div class="task-content">
