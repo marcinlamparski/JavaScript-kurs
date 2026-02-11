@@ -293,44 +293,7 @@ element.classList.add('podswietlony');
             opacity: 0.8;
         }
 
-        /* ========================================
-           KLASY DO ĆWICZEŃ 1-3 
-           Uczniowie TWORZĄ te klasy sami!
-           (zakomentowane - do odkomentowania)
-           ======================================== */
-        
-        /* ĆWICZENIE 1 - uczeń tworzy tę klasę: */
-        /*
-        .zaznaczony {
-            background-color: #fffde7;
-            border: 3px solid #ffc107;
-            padding: 15px;
-        }
-        */
-
-        /* ĆWICZENIE 2 - uczeń tworzy tę klasę: */
-        /*
-        .wazny {
-            background-color: #ffebee;
-            border-left: 5px solid #f44336;
-            color: #c62828;
-            font-weight: bold;
-        }
-        */
-
-        /* ĆWICZENIE 3 - uczeń tworzy te klasy: */
-        /*
-        .sukces {
-            background-color: #e8f5e9;
-            border: 2px solid #4caf50;
-            color: #2e7d32;
-        }
-        .blad {
-            background-color: #ffebee;
-            border: 2px solid #f44336;
-            color: #c62828;
-        }
-        */
+     
 
         /* Klasy pomocnicze (gotowe) */
         .hidden { display: none; }
