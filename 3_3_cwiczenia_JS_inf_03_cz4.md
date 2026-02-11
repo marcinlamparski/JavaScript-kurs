@@ -736,3 +736,5 @@ element.classList.add('podswietlony');
 | 14 | Komentarze | Dodawanie komentarzy + walidacja |
 | 15 | Wyczyść wszystko | Usuwanie wszystkich dzieci |
 | 16 | Lista zakupów | Pełny projekt z licznikiem |
+
+Miejsce do wysłania zadań: https://www.dropbox.com/request/Fwbnkz1c4QaeFtATG97f
